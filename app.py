@@ -26,7 +26,7 @@ def predict(
       Device_Type:str=Form(...),
       Session_Duration_Minutes:int=Form(...),
       Pages_Viewed:int=Form(...),
-      Is_Returning_Customer:bool=Form(...),
+      Is_Returning_Customer:str=Form(...),
       Delivery_Time_Days:int=Form(...),
       Customer_Rating:int=Form(...),
 ):
