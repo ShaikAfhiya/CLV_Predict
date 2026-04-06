@@ -4,3 +4,4 @@ jinja2
 joblib
 pandas
 python_multipart
+xgboost
