@@ -5,7 +5,7 @@ import pandas as pd
 from pydantic import BaseModel
 from fastapi.templating import Jinja2Templates
 #load the model
-#model=joblib.load('clv.pkl')
+model=joblib.load('clv.pkl')
 #import FastApi
 app=FastAPI()
 templates=Jinja2Templates(directory='templates')
