@@ -43,7 +43,7 @@ from xgboost import XGBRegressor
 
 pipeline=Pipeline([
     ('preprocessing',preprocessing),
-    ('model',XGBRegressor(n_estimators=3,
+    ('model',XGBRegressor(n_estimators=100,
     learning_rate=0.1,
     max_depth=3))
 ])
